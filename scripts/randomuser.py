@@ -18,7 +18,6 @@ def get_user(url=URL,count=2):
 
         print("\n")
 
-        output = pprint.pprint(result)
-        print(output)
+        output = print(pprint.pprint(result))
 
 my_response = get_user()
